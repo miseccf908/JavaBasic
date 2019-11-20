@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'javaBasic'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.10
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.3'
+    compile group: 'org.apache.poi', name: 'poi', version: '3.17'
+    compile group: 'org.apache.poi', name: 'poi-scratchpad', version: '3.0.1-FINAL'
+//    compile group: 'org.projectlombok', name: 'lombok-maven-plugin', version: '1.16.18.1'
+    annotationProcessor 'org.projectlombok:lombok:1.18.2'
+    compileOnly 'org.projectlombok:lombok:1.18.2'
+}
