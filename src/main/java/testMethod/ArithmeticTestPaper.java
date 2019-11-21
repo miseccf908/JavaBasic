@@ -144,6 +144,7 @@ public class ArithmeticTestPaper {
             List<String> data1 = paper.ninetyAddition();
             List<String> data2 = paper.carryList();
             List<String> data3 = paper.abdication();
+            System.out.print("");
             print(data1);
             System.out.print("\n-------------------------------------------");
             print(data2);
