@@ -1,4 +1,4 @@
-package test;
+package testMethod;
 
 import org.junit.Test;
 
